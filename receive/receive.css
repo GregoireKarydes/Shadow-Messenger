@@ -30,6 +30,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 200px;
+    margin-left: 15px;
 }
 
 #key {
