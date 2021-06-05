@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Messenger</title>
+    <link rel="stylesheet" href="home/home.css">
+
+    <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- SECTION 1 HOME -->
+    <div id="section-one">
+        <h1 id="titre"> Shadow Messenger</h1>
+        
+        <div id="responsive-one">
+            <div id="left">
+            <h2 id="subtitre"> Vos messages privés <br> <span id="style">vraiment privés</span></h2>
+            <div id="menu">
+                <a id="crypt" href="send/send.html"> Envoyer un message</a>
+                <a id="uncrypt" href="receive/receive.html"> J'ai reçu un message</a>
+            </div>
+        </div>
+
+        <div id="right">
+            <img src="home/img/home.png" alt="" id="homeImg">
+        </div>
+
+        </div>
+
+        <div id="video">
+            <video autoplay loop src="home/img/back.mp4"></video>
+        </div>
+        
+        <!-- SECTION 2 COMMENT CA MARCHE -->
+        
+        <div id="section-two">
+
+            <h1 id="titre2"> Comment ça fonctionne ?</h1>
+            <h3 id="soustitre"> Super simple et rapide</h3>
+
+            <div id="explication">
+                <div id="send">
+                    <h3> Envoyer un message</h3>
+                    <p> 1/ Cliquer sur "Envoyer un message"</p>
+                    <p> 2/ Entrer votre message</p>
+                    <p> 3/ Choisir une clef de cryptage et un indice <br> pour que seul le destinaire puisse le deviner </p>
+                    <p> 4/ Copier et envoyer votre message</p>
+                </div>
+                <div id="receive">
+                    <h3> Décoder un message reçu</h3>
+                    <p> 1/ Cliquer sur "J'ai reçu un message"</p>
+                    <p> 2/ Copier et coller votre message</p>
+                    <p> 3/ Entrer votre clef de décryptage devinée <br> à l'aide de l'indice</p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+</body>
+
+<!-- SCRIPT -->
+
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="home/home.js"></script>
+</html>

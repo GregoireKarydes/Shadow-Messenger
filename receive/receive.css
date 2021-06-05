@@ -1,0 +1,66 @@
+* {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#txt {
+    text-align: center;
+    padding: 50px;
+}
+
+#crypterBtn {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20%;
+    padding: 10px 20px;
+}
+
+#messages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+#key {
+    padding: 100px;
+}
+
+#back {
+    text-decoration: none;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    background-color: #02ff20;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+#back2 {
+    text-decoration: none;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    background-color: #02ff20;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+#keyForm {
+    position: absolute;
+    top: 30%;
+}

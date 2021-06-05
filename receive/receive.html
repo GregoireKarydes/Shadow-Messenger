@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Messenger | Crypter un message</title>
+    <link rel="stylesheet" href="receive.css">
+
+     <!-- font -->
+
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 id="txt">Saisir votre message crypté</h1>
+
+    <div id="keyForm"> 
+        <label for="keyC"> Clef de cryptage</label>
+        <input type="text" id="keyC" placeholder="uniquement des lettres">
+    </div>
+
+
+
+    <div id="messages">
+        
+        <div>
+            <form name="formulaire">
+            <textarea name="messageNormal" id="messageNormal" cols="80" rows="20" placeholder="Merci de ne mettre que la partie du message cryptée"></textarea>
+            <textarea name="messageCrypted" id="messageCrypted" cols="80" rows="20" placeholder="Votre message décrypté apparait ici"></textarea>
+            <input id="crypterBtn" type="button" onclick="crypterMonTxt()" value="Décrypter" >
+            </form>
+        </div>
+    </div>
+    <a href="../index.html" id="back"> Retour au menu</a>
+    
+</body>
+<script src="receive.js"></script>
+</html>

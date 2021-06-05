@@ -1,0 +1,118 @@
+* {
+    font-family: 'Rajdhani', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* section 1 */
+
+#section-one {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+#responsive-one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#titre {
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #02ff20;
+    letter-spacing: 5px;
+}
+
+#subtitre {
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 40px;
+}
+
+#left {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#style {
+    font-weight: bold;
+    opacity: 100%;
+    color: #02ff20;
+}
+
+#menu {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#crypt, #uncrypt:hover {
+    margin-right: 30px;
+    font-weight: bold;
+    background-color: #02ff20;
+    color: black;
+}
+
+#crypt, #uncrypt {
+    text-decoration: none;
+    padding: 10px 30px;
+    transition: 0.2s;
+    margin-bottom: 30px;
+}
+
+#uncrypt, #crypt:hover {
+    background-color: black;
+    border: 2px #02ff20 solid;
+    color: #02ff20;
+}
+
+#homeImg {
+    width: 60%;
+    padding-top: 40px;
+    min-width: 300px;
+    overflow-x: hidden;
+}
+
+#video {
+    position: fixed;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+}
+
+/* SECTION 2 */
+
+#section-two {
+    width: 100%;
+    padding-top: 50px;
+    background-color: white;
+    color: black;
+}
+
+#explication {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    justify-content: space-around;
+}
+
+#explication h3 {
+    font-style: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
