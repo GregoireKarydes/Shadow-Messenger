@@ -13,6 +13,12 @@ function transformerLaKey() {
            keyInNumber +=key.charCodeAt(i);
        }
 
+       keyInNumber = keyInNumber%26;
+
+       if(keyInNumber>=15) {
+         keyInNumber-=10;
+       }
+
 }
 
 
@@ -46,14 +52,14 @@ function crypter(clair,decalage,chiffre="") {
     transformerLaKey(key);
     texteTransform = crypter(texteACoder,keyInNumber);
     document.getElementById("messageCrypted").value = "Bonjour, vous avez reçu un message crypté. \n Afin de le lire merci de remplir la clef de décryptage !" +
-    "\n Indice pour la trouver : " + indice + '\nEn vous randant sur https://gregoirekarydes.github.io/Shadow-Messenger/' + "\nVoici votre message : " + texteTransform;
+    "\n Indice pour la trouver : " + indice + '\nEn allant sur https://gregoirekarydes.github.io/Shadow-Messenger/' + "\nVoici votre message : " + "\n\n" + texteTransform;
 
     disparition()
 }
 
 const disparition = () => {
   btn.style.visibility = "hidden";
-  document.querySelector("#txt").innerHTML = "Félicitation votre message à été crypté";
+  document.querySelector("#txt").innerHTML = "Félicitation votre message a été crypté";
 }
 
 

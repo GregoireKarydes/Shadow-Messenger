@@ -14,6 +14,10 @@ function transformerLaKey() {
 
        keyInNumber = keyInNumber%26;
 
+       if(keyInNumber>=15) {
+        keyInNumber-=10;
+      }
+
 }
 
 
@@ -53,7 +57,7 @@ function decrypter(clair,decalage,chiffre="") {
 
 const disparition = () => {
   btn.style.visibility = "hidden";
-  document.querySelector("#txt").innerHTML = "Félicitation votre message à été décrypté";
+  document.querySelector("#txt").innerHTML = "Félicitation votre message a été décrypté";
 }
 
 
